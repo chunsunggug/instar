@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+	#content_box{
+		clear: both;
+		width: 450px;
+		border: 1px solid #E6E6E6;
+		border-radius: 2px;
+		margin-top : 60px;
+	}
+	
+	#writer{
+		width: 450px;
+		height: 64px;
+	}
+	
+	#writer div{
+		display: inline-block;
+	}
+	
+	#writer_img{
+		float: left;
+	}
+	
+	#writer_img img{
+		margin: 15px;
+		width: 30px;
+		height: 30px;
+		border-radius:15px;
+	}
+	
+	#writer_name{
+		float: left;
+		padding-top:20px;
+		font-size: 12px;
+	}
+	
+	#dot{
+		float: right;
+	}
+	
+	#dot img{
+		width: 15px;
+		margin: 20px;
+	}
+	
+	#content_img img{
+		width: 450px;
+	}
+	
+	#icons{
+		width: 450px;
+	}
+	
+	#icons img{
+	margin-top: 10px;
+	width: 27px;
+	margin-left: 13px;
+	cursor: pointer;	
+	}
+	
+	#tag{
+	position: relative;
+	left: 260px;
+	}
+	
+	#likesBtn{
+	font-weight: bold;	
+	background-color: white;
+	border: none;
+	padding: 5px;
+	cursor: pointer;
+	outline: none;	
+	padding-left: 13px;
+	}
+	
+	#content_text{
+		width: 450px;
+		margin-left: 10px;
+	}
+	
+	#reply{
+		width: 450px;
+		margin-left: 10px;
+	}
+	
+	#past_time{
+		font-size: 10px;
+		margin: 10px;
+	}
+
+/*--------------------------------*/
+section{
+	width:680px;
+	height: 800px;
+}
+
+article{
+	display: inline-block;
+}
+
+#list{
+	width:680px;
+	height: 800px;
+	position: relative;
+	z-index: 1;
+	overflow: scroll;
+}
+
+#list::-webkit-scrollbar{
+	display: none;
+}
+
+#side{
+	width:210px;
+	margin-left:15px;
+	position: relative;
+	z-index: 2;
+	top: -740px;
+	left: 450px;
+	font-size:12px;
+	clear: both;
+}
+
+#profile{
+	width: 210px;
+	height: 68px;
+}
+
+#profile_img img{
+	width:64px;
+	height:64px;
+	border-radius: 32px;
+}
+
+#profile > div{
+	display: inline-block;
+	float: left;
+}
+
+#profile_name{
+	margin:10px;
+}
+
+#recommend{
+	border: 1px solid #E6E6E6;
+	border-radius: 2px;
+	margin-top : 20px;
+}
+
+#recommend_top div{
+	display:inline-block;
+	margin:10px;
+}
+
+#recommend_top_left{
+	color: #A4A4A4;
+}
+
+#recommend_top_right{
+	float:right;
+}
+
+#recommend_user{
+	width: 210px;
+	height: 53px;
+	font-size: 9px;
+}
+	
+#recommend_user > div{
+	display: inline-block;
+}
+
+#recommend_img{
+	float:left;
+}
+
+#recommend_img img{
+	margin: 10px;
+	width: 30px;
+	height: 30px;
+	border-radius:15px;
+}
+
+#recommend_text{
+	float:left;
+	margin-top:10px;
+}
+
+#recommend_fstate{
+	color:#A4A4A4;
+}
+
+#recommend_follow{
+	float:right;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+
+#recommend_follow a{
+	color : #0080FF;
+}

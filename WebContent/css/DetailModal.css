@@ -1,0 +1,159 @@
+@charset "UTF-8";
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 200px auto;
+  border: 1px solid #888;
+  max-width: 850px;
+  height: 500px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#Detailp div{
+	border: 0px solid black;
+}
+#detaliImg{
+	background-color:black;
+	margin:auto;
+    max-width: 500px;
+    height:500px;
+    width: 60%;
+	float: left;
+	
+}
+
+#modalImg{
+	width: 100%;
+	margin: auto 0px;
+	vertical-align: middle;
+}
+
+#detailFbtn{
+	color: #4d94ff;
+	background-color: white;
+	border: none;
+	padding: 5px;
+	cursor: pointer;
+	outline: none;
+}
+
+#detailContent{
+	float: left;
+	width: 346px;
+}
+#detailContent div{
+	border-bottom: 1px solid #f2f2f2;
+}
+
+#detail-id{
+	height: 50px;
+}
+#detail-replyList{
+	height: 280px;
+	overflow: auto;
+}
+#detailContent li{
+	display: inline-block;
+	list-style: none;
+	vertical-align: middle;
+	margin-right: 10px;
+	text-align: left;
+	position: relative;
+	right: 30px;
+}
+#detail-id img{
+	width: 40px;
+	border-radius: 30px;
+	text-align: left;
+}
+#detail-replyList img{
+	width: 40px;
+	border-radius: 30px;
+	text-align: left;
+}
+#detail-like{
+	height: 90px;
+}
+#detail-reply{
+	height: 20px;
+	margin-top: 20px;
+}
+#reply{
+	margin-left:15px;
+	height: 20px;
+	width: 270px;
+	border: 0px solid black;
+	outline: none;
+}
+#replyBtn{
+	color: #4d94ff;
+	background-color: white;
+	border: none;
+	padding: 5px;
+	cursor: pointer;
+	outline: none;
+}
+#detail-like div{
+	border: none;
+}
+
+#likesBtn{
+	font-weight: bold;	
+	background-color: white;
+	border: none;
+	padding: 5px;
+	cursor: pointer;
+	outline: none;	
+	padding-left: 13px;
+	margin-top: 5px;
+	margin-bottom: -5px;
+}
+#sysDate{
+	height:10px;
+	font-size: 10px;
+	padding-left: 13px;
+	color: gray;
+}
+#icons{
+	height: 25px;
+	padding-bottom: 5px;
+}
+#icons img{
+	margin-top: 10px;
+	width: 27px;
+	margin-left: 13px;
+	cursor: pointer;	
+}
+#tag{
+	position: relative;
+	left: 150px;
+}
+

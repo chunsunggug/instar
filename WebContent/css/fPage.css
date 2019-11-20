@@ -1,0 +1,157 @@
+@charset "UTF-8";
+*{
+	background-color: white;
+}
+div{
+	border: 1px solid white;
+} 
+
+#topAticle{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+#selfimfo li{
+	list-style: none;
+}
+
+#proFileMenu li{
+	display: inline-block;
+	list-style: none;
+}
+
+@media only screen and (min-width: 768px) {
+	#proFileimg {
+		border-radius: 150px;
+		width: 150px;
+		height: 150px;
+	}
+	
+	#proFile {
+		float: left;
+		width: 160px;
+		margin-top: 60px;
+		margin-left: 8%;
+		margin-right: 5%;
+		
+	}
+	
+	#nickname{
+		float: left;
+		margin-top: 60px;
+	}
+	
+	#fBtn{
+		float: left;
+		margin-top: 85px;
+		margin-left: 2%;
+		padding: 5px 30px;
+		border: none;
+		background-color: #1a75ff;
+		color: white;
+		border-radius: 5px;
+		font-weight: bold;
+		cursor: pointer;
+	}
+	
+	#proFileMenu{
+		margin-top: 130px;
+
+	}
+	
+	#selfimfo{
+	font-size: 15px;
+	float: left;
+	width:300px;
+	position: relative;
+	right:4%;
+	}
+	
+}
+@media only screen and (max-width: 768px){
+	
+	#proFileimg {
+		border-radius: 150px;
+		width: 100px;
+	}
+	
+	#proFile {
+		float: left;
+		width: 100px;
+		margin-top: 30px;
+		margin-left: 2%;
+		margin-right: 2%;
+		
+	}
+	
+	#nickname{
+		float: left;
+		margin-top: 30px;
+	}
+	
+	#fBtn{
+		float: left;
+		margin-top: 95px;
+		position: relative;
+		right: 125px;
+		padding: 5px 30px;
+		border: none;
+		background-color: #1a75ff;
+		color: white;
+		border-radius: 5px;
+		font-weight: bold;
+		cursor: pointer;		
+	}
+	
+	#proFileMenu{
+		border-top: 1px solid #cccccc;
+		margin-top: 220px;
+		text-align: center;
+		position: relative;
+		top: 75px; 
+	}
+	#selfimfo{
+	font-size: 15px;
+	float: left;
+	width:300px;
+	margin-left: 2%;
+	position: relative;
+	left: -40px;
+	bottom: 130px;
+	}
+	
+}
+
+#bottomAticle{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+#nav{
+	clear: both;
+	text-align: center;
+	border-top: 1px solid #cccccc;
+}
+
+#nav li{
+	list-style: none;
+	display: inline-block;
+	padding: 2px 30px;
+	font-size: 15px;
+}
+#nav a{
+	text-decoration: none;
+}
+
+#list img{
+	max-width:100%;
+	height:auto;
+}
+#list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 7px;
+  background-color: #f2f2f2;
+}
+
+

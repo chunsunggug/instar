@@ -1,0 +1,111 @@
+@charset "UTF-8";
+#history {
+  display: none;
+  /* Hidden by default */
+  
+  position: fixed; /* Stay in place */
+  z-index: 3; /* Sit on top */
+  padding-top: 63px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;  /* Full width */
+  height: 100%;  /* Full height */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.1); /* Black w/ opacity */
+}
+#history_modal_box {
+      width: 500px;
+      height: 400px;
+      background: white;
+      position: relative;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 4px;      
+      margin-left: 781px;
+      box-shadow: 0px 0px 5px 1px #A4A4A4; 
+    }
+#history_modal_box:before {
+      border-bottom: 10px solid white;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      content: "";
+      height: 0;
+      left: 425px;
+      position: absolute;
+      top: -10px;
+      width: 0;
+    }
+    
+#history_modal_box_scroll{
+   width:500px;
+   height:400px;
+   background: white;
+   overflow: auto; /* Enable scroll if needed */
+}
+    
+#history_alarm_img img{
+   margin: 15px;
+   width: 30px;
+   height: 30px;
+   border-radius:15px;
+}
+
+#history_alarm_wrap div{
+   display: inline-block;
+}
+
+#history_alarm_box{
+   width: 400px;
+   border-bottom: 1px solid #E6E6E6;
+}
+
+	#history_alarm_img{
+		margin-top:6px;
+		margin-bottom:6px;
+		float:left;
+	}
+
+	#history_alarm_box{
+		height: 75px;
+		width: 400px;
+	}
+	
+	#history_alarm_box div{
+		display:inline-block;
+	}
+	
+	#history_alarm_box_text{
+		display:inline-block;
+		float:left;
+		width:330px;
+	}
+	
+	#history_alarm_box_text_name{
+		font-size: 14px;
+	}
+	
+	#history_alarm_box_button{
+		display:inline-block;
+	}
+	
+	#history_alarm_box_button input{
+		border: none;
+		border-radius: 5px;
+		background: #0080FF;
+		color: white;
+		width: 60px;
+		height: 30px;
+		font-weight: bold;
+		margin-top: 23px;
+	}
+	
+	#history_alarm_box_img{
+		margin-top: 18px;
+		margin-left: 15px;
+	}
+	
+	#history_alarm_box_img img{
+		width: 40px;
+		height: 40px;
+	}
+	

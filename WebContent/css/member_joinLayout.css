@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+section{
+	text-align: center;
+}
+
+article{
+	width: 330px;
+	display: inline-block;
+	text-align: center;
+	margin: 3px;
+}
+
+article img{
+	width: 330px;
+}
+
+p{
+	margin: 0;
+}
+
+#member{
+	width: 330px;
+	text-align: center;
+	margin-top:120px;
+	padding-bottom:20px;
+	
+	border: 1px solid #E6E6E6;
+}
+
+#inner{
+	width: 330px;
+	text-align: center;
+	
+	padding-top:30px;
+}
+
+
+#member img{
+	width: 250px;
+}
+
+#inner p{
+	color: #848484;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#top{
+	font-size: 17px;
+}
+
+#bottom{
+	font-size: 16px;
+}
+
+#login{
+	width: 330px;
+	text-align: center;
+	margin-top: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+	border: 1px solid #E6E6E6;
+}
+
+#inner_text input{
+	width: 280px;
+	height: 30px;
+	margin: 5px;
+}
+
+#inner_text input::placeholder{
+	text-align: left;
+}
+
+#join_button{
+	background-color: #2E9AFE;
+	color: white;
+	font-weight: bold;
+	width: 280px;
+	height: 35px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#login_button{
+	background-color: #2E9AFE;
+	color: white;
+	font-weight: bold;
+	width: 280px;
+	height: 35px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}

@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+section{
+	margin-top:20px;
+}
+
+#my_img{
+	display: inline-block;
+	width: 250px;
+	text-align: center;
+	float:left;
+}
+
+#my_img img{
+	width:160px;
+	height:160px;
+	border-radius:80px;
+}
+
+#my_profile{
+	display: inline-block;
+	width:420px;
+}
+
+#my_profile div{
+	margin-top:20px;
+	margin-bottom:20px;
+	padding-left: 20px;
+}
+
+#my_id{
+	font-size: 25px;
+}
+#my_name{
+	font-weight: bold;
+}
+#edit{
+	background-color: white;
+	border-color: #E6E6E6;
+	border-style: solid;
+	border-radius: 4px;
+	padding: 8px 15px;
+	font-weight: bold;
+}
+
+article{
+	margin-top:80px;
+}
+
+#myPage_bar{
+	text-align: center;
+	border-top: 1px solid #E6E6E6;
+}
+
+#myPage_bar div{
+	display: inline-block;
+	margin-left:40px;
+	margin-right:40px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#myPage_bar div img{
+	width:15px;
+} 

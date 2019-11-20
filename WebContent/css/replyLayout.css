@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+#reply_input{
+		width: 450px;
+		border-top: 1px solid #E6E6E6;
+	}
+	
+.reply_text{
+		width: 390px;
+		height: 48px;
+		border: none;
+		margin-left:10px;
+		outline: 0;		
+	}
+	
+	.reply_text::placeholder{
+		text-align: left;
+	}
+	
+.reply_ok{
+		border: none;
+		background-color: white;
+		color : #0080FF;
+		font-size: 15px;
+		font-weight: bold;
+		outline: 0;
+		opacity: 0.5;
+	}

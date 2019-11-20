@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+#my_img{
+	background-color: red;
+}
+
+#my_profile{
+	background-color: black;
+}
+
+#top{
+	background-color: yellow;
+}
+#middle{
+	background-color: orange;
+}
+#bottom{
+	background-color: blue;
+}

@@ -1,0 +1,78 @@
+------------------리스트 부분 구현 테이블---------------
+
+content테이블
+
+CREATE TABLE semi_content(
+idx NUMBER PRIMARY key,
+id varchar2(100),
+nickname varchar2(100),
+content varchar2(2000),
+relike NUMBER DEFAULT 0,
+readnum NUMBER DEFAULT 0,
+rdate DATE DEFAULT SYSDATE,
+mainimg varchar2(2000),
+subimg1 varchar2(2000),
+subimg2 varchar2(2000),
+subimg3 varchar2(2000)
+) tablespace users;
+
+CREATE SEQUENCE semi_content_idx;
+
+relike테이블
+
+CREATE TABLE semi_relike(
+idx NUMBER,
+id varchar2(100),
+rdate DATE DEFAULT sysdate
+)tablespace users;
+
+comment테이블
+
+CREATE TABLE semi_comment(
+cidx NUMBER PRIMARY KEY,
+idx NUMBER,
+r_COMMENT varchar2(500),
+clike NUMBER,
+id varchar2(100),
+yid varchar2(100),
+REF NUMBER,
+lev NUMBER,
+rdate DATE DEFAULT SYSDATE,
+nickname varchar2(100)
+)tablespace users;
+
+CREATE SEQUENCE semi_comment_cidx;
+
+------------------리스트 부분 구현 테이블 더미 생성 sql---------------
+
+INSERT INTO SEMI_CONTENT values(semi_content_idx.nextval, 'test1', 'test1', 'test', 0, 0, SYSDATE, '', '', '', '');
+
+INSERT INTO SEMI_CONTENT values(semi_content_idx.nextval, 'test2', 'test2', 'test', 0, 0, SYSDATE, '/img/myPage/sample_myFace.jpg', '', '', '');
+
+INSERT INTO SEMI_CONTENT values(semi_content_idx.nextval, '테스트아이디', '테스트닉네임', '테스트용 본문', 0, 0, SYSDATE, 'sample_content3.jpg', '', '', '');
+
+INSERT INTO SEMI_CONTENT values(semi_content_idx.nextval, '테스트아이디', '테스트닉네임', '테스트용 본문', 0, 0, SYSDATE, 'sample_content4.jpg', '', '', '');
+
+INSERT INTO SEMI_CONTENT values(semi_content_idx.nextval, '테스트아이디', '테스트닉네임', '테스트용 본문', 0, 0, SYSDATE, 'sample_content5.jpg', '', '', '');
+
+INSERT INTO SEMI_CONTENT values(semi_content_idx.nextval, '페이징테스트아이디', '페이징테스트닉네임', '페이징테스트용 본문', 0, 0, SYSDATE, 'sample_content3.jpg', '', '', '');
+
+
+
+
+------------------멤버 부분 구현 테이블 생성 sql----------------------
+
+CREATE TABLE semi_member(
+   idx number PRIMARY KEY,
+   id varchar2(100) ,
+   pwd varchar2(200),
+   name varchar2(300),
+   nickname varchar2(100),
+   guide varchar2(1000),
+   homepage varchar2(1000),
+   img varchar2(2000),
+   rdate date default sysdate
+)TABLESPACE USERS;
+
+CREATE SEQUENCE semi_member_idx;
+
